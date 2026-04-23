@@ -6,7 +6,7 @@ class Node
 {
 public:
     int noMhs;
-    node *next;
+    Node *next;
 };
 
 class LinkedList
@@ -15,4 +15,10 @@ class LinkedList
 
 public:
     LinkedList
-}
+    {
+        START = NULL;
+    }
+
+    void addNode()
+    {
+     
